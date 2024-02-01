@@ -8,10 +8,10 @@ inp = sys.argv[1]
 
 # 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
 
-image_size = 256
-labels = ['Normal','Ankylosing Spondylitis','SI joint dysfunction']
+image_size = 512
+labels = ["No DR", "Mild", "Moderate", "Severe", "Proliferative DR"]
 
-im = cv2.cvtColor(cv2.resize(cv2.imread(inp),(image_size,image_size)),cv2.COLOR_BGR2GRAY)/255
+im = cv2.resize(cv2.imread(inp),(image_size,image_size))[:,:,::-1]/255
 
 
 model = keras.models.load_model("model.h5")

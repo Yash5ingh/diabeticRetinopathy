@@ -80,55 +80,23 @@
 
         if ($output == "1") {
             echo "<div id='pred-wrapper'>
-            <p class='disease-note'><b>NOTE: This information is not a substitute for professional medical advice. Please consult a rheumatologist for an accurate diagnosis.</b></p>
-            <h1 id='disease-title'>Ankylosing Spondylitis: Causes, Symptoms, and Treatment</h1>
-            <p class='disease-para'>Ankylosing Spondylitis (AS) is a chronic inflammatory condition that primarily affects the spine, causing pain and stiffness. It is a type of arthritis that falls under the category of spondyloarthritis. AS can also affect other joints and organs in the body. <b class='disease-consult'>If you suspect you may have Ankylosing Spondylitis, it is important to consult a rheumatologist or a healthcare professional specializing in rheumatic conditions for a thorough evaluation and appropriate guidance.</b></p>
-
-            <h2 id='disease-subtitle'>Causes of Ankylosing Spondylitis</h2>
-
-            <p class='disease-para'>The exact cause of AS is unknown, but it is believed to be influenced by both genetic and environmental factors. It is more common in individuals who have a specific genetic marker called HLA-B27. Environmental factors such as infections may also play a role in triggering the condition.</p>
-
-            <h2 id='disease-subtitle'>Symptoms of Ankylosing Spondylitis</h2>
-
-            <p class='disease-para'>Common symptoms of AS include:</p>
-
-            <ul class='disease-para'>
-            <li>Chronic pain and stiffness in the lower back and hips</li>
-            <li>Pain and stiffness that worsens with inactivity and improves with movement</li>
-            <li>Fatigue</li>
-            <li>Loss of flexibility in the spine</li>
-            <li>Difficulty expanding the chest, leading to limited lung capacity</li>
-            <li>Other joint pain, such as in the knees, shoulders, and ankles</li>
-            <li>Eye inflammation (uveitis)</li>
-            </ul>
-
-            <div class='disease-image'>
-            <img class='disease-img' src='assets\disease image\Ankylosing Spondylitis.jpg' alt='Ankylosing Spondylitis'>
-            </div>
-
-            <h2 id='disease-subtitle'>Treatment Options</h2>
-
-            <p class='disease-para'>While there is no cure for AS, there are various treatment options available to manage symptoms and improve quality of life. These may include:</p>
-
-            <ul class='disease-para'>
-            <li>Physical therapy and exercise to improve flexibility and strength</li>
-            <li>Nonsteroidal anti-inflammatory drugs (NSAIDs) to reduce pain and inflammation</li>
-            <li>Biologic medications to target specific aspects of the immune system</li>
-            <li>Corticosteroids to reduce inflammation</li>
-            <li>Disease-modifying antirheumatic drugs (DMARDs)</li>
-            </ul>
-
-            <p class='disease-para'>It's important for individuals with AS to work closely with their healthcare providers to develop a comprehensive treatment plan tailored to their specific needs.</p>
-
-            <h2 id='disease-subtitle'>Conclusion</h2>
-
-            <p class='disease-para'>Ankylosing Spondylitis is a chronic condition that can significantly impact a person's quality of life. With early diagnosis and appropriate treatment, individuals with AS can effectively manage their symptoms and lead fulfilling lives. If you suspect you may have AS or are experiencing symptoms, consult a healthcare professional for a proper evaluation and guidance.</p>
-
-            <p class='disease-para'>Remember, this blog post is for informational purposes only and should not be considered as medical advice. Always consult with a qualified healthcare provider for proper diagnosis and treatment.</p>
-
+            <h1 id='disease-title'>Mild DR</h1>
             </div>";
-
-
+        }
+        else if ($output == "2") {
+            echo "<div id='pred-wrapper'>
+            <h1 id='disease-title'>Moderate DR</h1>
+            </div>";
+        }
+        else if ($output == "3") {
+            echo "<div id='pred-wrapper'>
+            <h1 id='disease-title'>Severe</h1>
+            </div>";
+        }
+        else if ($output == "4") {
+            echo "<div id='pred-wrapper'>
+            <h1 id='disease-title'>Proliferative DR</h1>
+            </div>";
         }
         else {
             echo "<div id='pred-wrapper'>
