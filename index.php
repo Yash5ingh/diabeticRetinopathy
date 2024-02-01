@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/logos/logo blue.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/logos/drLogo.png" type="image/x-icon">
     <title>Home</title>
     <link rel="stylesheet" href="index.css">
 </head>
@@ -129,62 +129,8 @@
             </div>";
 
 
-        } else if ($output == "2") {
-            echo "<div id='pred-wrapper'>
-            <p class='disease-note'><b>NOTE: This information is not a substitute for professional medical advice. Please consult an orthopedic specialist or a physiotherapist.</b></p>
-            <h1 id='disease-title'>Sacroiliac (SI) Joint Dysfunction: Causes, Symptoms, and Treatment</h1>
-
-            <p class='disease-para'>Sacroiliac Joint Dysfunction, often abbreviated as SI joint dysfunction, is a condition that causes pain in the sacroiliac joint - the joint connecting the lower spine and pelvis. This condition can be a source of lower back pain and discomfort. <b class='disease-consult'>If you believe you may be experiencing symptoms of SI Joint Dysfunction, it is recommended to consult with a healthcare professional, such as an orthopedic specialist or a physiotherapist, for proper evaluation and guidance.</b></p>
-        
-            <h2 id='disease-subtitle'>Causes of Sacroiliac Joint Dysfunction</h2>
-        
-            <p class='disease-para'>SI joint dysfunction can be caused by a variety of factors, including:</p>
-        
-            <ul class='disease-para'>
-                <li>Arthritis affecting the SI joint</li>
-                <li>Changes in joint alignment due to pregnancy and childbirth</li>
-                <li>Repetitive stress on the SI joint, common in certain sports</li>
-                <li>Inflammatory conditions affecting the SI joint</li>
-            </ul>
-        
-            <h2 id='disease-subtitle'>Symptoms of Sacroiliac Joint Dysfunction</h2>
-        
-            <p class='disease-para'>Common symptoms of SI joint dysfunction include:</p>
-        
-            <ul class='disease-para'>
-                <li>Pain in the lower back, buttocks, and thighs</li>
-                <li>Pain that worsens with prolonged sitting or standing</li>
-                <li>Pain that may radiate down to the legs</li>
-                <li>Stiffness or a burning sensation in the pelvis</li>
-                <li>Difficulty in performing activities like walking or climbing stairs</li>
-            </ul>
-        
-            <div class='disease-image'>
-                <img class='disease-img' src='assets\disease image\SI joint dysfunction.jpg' alt='Sacroiliac Joint Dysfunction'>
-            </div>
-        
-            <h2 id='disease-subtitle'>Treatment Options</h2>
-        
-            <p class='disease-para'>Managing SI joint dysfunction may involve various treatment options, including:</p>
-        
-            <ul class='disease-para'>
-                <li>Physical therapy to improve joint stability and flexibility</li>
-                <li>Exercises to strengthen the muscles supporting the SI joint</li>
-                <li>Application of heat or cold packs to alleviate pain and inflammation</li>
-                <li>Medications like nonsteroidal anti-inflammatory drugs (NSAIDs)</li>
-                <li>Injections to provide temporary relief from pain and inflammation</li>
-                <li>Surgery in severe cases where conservative treatments do not provide relief</li>
-            </ul>
-        
-            <p class='disease-para'>It is important to consult with a healthcare professional for an accurate diagnosis and to determine the most suitable treatment plan for your specific condition.</p>
-        
-            <h2 id='disease-subtitle'>Conclusion</h2>
-        
-            <p class='disease-para'>Sacroiliac Joint Dysfunction can significantly impact an individual's quality of life, but with proper diagnosis and treatment, it can be managed effectively. Early intervention and a tailored treatment plan are crucial for improving symptoms and maintaining mobility.</p>
-        
-            <p class='disease-para'>This blog post is for informational purposes only and should not be considered as medical advice. Always consult with a qualified healthcare provider for proper diagnosis and treatment.</p>
-            </div>";
-        } else {
+        }
+        else {
             echo "<div id='pred-wrapper'>
             <h1 id='disease-title'>No Disease detected</h1>
             </div>";

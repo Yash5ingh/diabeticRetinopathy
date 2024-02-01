@@ -31,11 +31,11 @@ h1, h2 {
 
 .awareness-image {
     text-align: center;
-    margin-bottom: 20px;
+    height: 50vh;
+    margin: 2rem;
 }
 
 .awareness-img {
-    max-width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 5px;
 }
